@@ -4,13 +4,16 @@ Let's you record in what you invert your time to improve your productivity.
 Download the [corresponding .zip](https://github.com/ElrohirGT/Console-Time-Manager/releases) for your system, unzip it.
 If your on Mac copy the folder to Aplications, then pres cmd+space and type "Console Time Manager" (like in the image) then just press enter.
 ![app image](images/appsearch.png)
+
 If your on windows you just need to find the .exe inside the folder and double click it, you can create a desktop shortcut if you like.
 
 # Usage
 Once started this will pop-up:
 ![first menu image](images/menu1.png)
+
 All the menus items have a number on the side, press the number that the "Register" item has and then press enter, this should pop up:
 ![register menu image](images/menu2.png)
+
 You can cancel the form at any time by pressing x, once you have completed all the registration process you'll need to log-in.
 
 ***
@@ -21,6 +24,7 @@ Don't forget to log out after recording your time in the application.
 
 After successfully loggin in this menu will appear:
 ![main menu image](images/menu3.png)
+
 The first thing that you'll need to do is create a project, this represents a category of things that you do in your life, you can call it "Work" or "Exercises" if you want, after adding a project you can start recording the time you invest in it. Here's how you do it:
 ![adding and and recording a project gif](images/projectTurorial.gif)
 
