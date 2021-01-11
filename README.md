@@ -1,5 +1,5 @@
 # Console Time Manager
-Let's you record in what you invert your time to improve your productivity.
+Lets you record in what you invert your time to improve your productivity.
 # Download
 Download the [corresponding .zip](https://github.com/ElrohirGT/Console-Time-Manager/releases) for your system, unzip it.
 If your on Mac copy the folder to Aplications, then pres cmd+space and type "Console Time Manager" (like in the image) then just press enter.
