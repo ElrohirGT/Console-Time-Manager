@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Console_Time_Manager</RootNamespace>
+    <ApplicationIcon>TMLogo.ico</ApplicationIcon>
+    <StartupObject>Console_Time_Manager.Program</StartupObject>
+    <Authors>Flavio Galan</Authors>
+    <Company>TM</Company>
+    <Copyright />
+    <PackageIcon>TMLogo.png</PackageIcon>
+    <PackageIconUrl />
+    <PackageId>ConsoleTimeManager</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove=".DS_Store" />
+    <None Include="..\TMLogo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Remove="Time_Manager.projitems" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BetterConsoleTables" Version="1.1.2" />
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.112" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TimeManagerDatabase.db">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
